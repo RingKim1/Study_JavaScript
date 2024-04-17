@@ -31,7 +31,7 @@ console.log(myNumber);
 const myBtns = document.querySelectorAll('.color-btn');
 console.log(myBtns);
 
-//Event와 버튼 클릭
+//Event와 EventHandler
 const decreaseBtn = document.querySelector('#decrease');
 decreaseBtn.onclick = function () {
     alert('감소');
