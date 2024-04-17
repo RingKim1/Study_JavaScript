@@ -7,7 +7,7 @@ console.log(myTag2);
 //존재하지 않는 값이면 null이 출력
 
 
-//class로 태그 선택하기
+//class로 태그 선택하기 : HTMLCollection
 const myTags = document.getElementsByClassName('color-btn');
 console.log(myTags);
 console.log(myTags.length);
@@ -17,14 +17,14 @@ for (const a of myTags) {
     console.log(a);
 }
 
-//태그 이름으로 태그 선택하기
+//태그 이름으로 태그 선택하기 : HTMLCollection
 const myTag3 = document.getElementsByTagName('button');
 console.log(myTag3);
 
-console.log("-------------------------br-------------------------");
+console.log("-----------------------br------------------------");
 
 
-//선택자로 태그 선택하기
+//선택자로 태그 선택하기 : nodelist
 const myNumber = document.querySelector('#myNumber');
 console.log(myNumber);
 
