@@ -1,0 +1,33 @@
+/* CSS선택자 개념 */
+* {}
+
+tag {}
+
+.class {}
+
+#id {}
+
+
+
+/* 유용한 css 모음 */
+.collector {
+    /* display set로 기억 */
+    display: flex;
+    flex-direction: column;
+    /* row */
+    align-items: center;
+    justify-self: center;
+
+    /* 배경색 : 투명 */
+    background-color: transparent;
+
+    /* background set */
+    background-image: url(https://www.naver.com);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* 그림자 : 보통 3번째 꺼 바꿈*/
+    box-shadow: 0px 0px 5px 0px blue;
+
+}
