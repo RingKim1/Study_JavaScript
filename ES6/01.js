@@ -13,7 +13,7 @@ function add() {
 // 함수 표현식
 var add = function() {}
 
-// 화살표 함수
+// 화살표 함수 : (소)괄호 열고 닫고, (중)괄호 열고 닫고!
 var add = (x) => {
     return 1;
 }
